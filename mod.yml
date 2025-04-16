@@ -1,0 +1,43 @@
+title: KACHOW
+originalAuthor: danimalforlife
+description: I. AM. SPEED.
+dependencies: 
+assets:
+
+
+#Hot Rod and Mad Ride Models#
+- name: obj/M_EX640.mdlx #Only used in cups
+  multi:
+  - name: obj/M_EX640_HB.mdlx #Mad Ride
+  - name: obj/M_EX640_WI.mdlx #Timeless River
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: m_ex
+    type: model
+    method: copy
+    source:
+    - name: KACHOW/M_EX640.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: KACHOW/M_EX640.texture
+
+
+#Sounds#
+- name: remastered/obj/M_EX640.a.us/se/obj/se230 #Regular (cups only?)
+  multi:
+  - name: remastered/obj/M_EX640_HB.a.us/se/obj/se230 #Mad Ride
+  - name: remastered/obj/M_EX640_WI.a.us/se/obj/se230 #Timeless River
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: KACHOW/KACHOW
+
+#Sounds (PS2 Version)#
+- name: se/se230.win32.scd #Regular (cups only?)
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: KACHOW/KACHOW.scd
