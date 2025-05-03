@@ -25,6 +25,36 @@ assets:
     - name: KACHOW/M_EX640.texture
 
 
+#HD Textures#
+- name: remastered/obj/M_EX640.mdlx/-0.dds #Only used in cups
+  multi:
+  - name: remastered/obj/M_EX640_HB.mdlx/-0.dds #Mad Ride
+  - name: remastered/obj/M_EX640_WI.mdlx/-0.dds #Timeless River
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: KACHOW/-0.dds
+
+- name: remastered/obj/M_EX640.mdlx/-1.dds #Only used in cups
+  multi:
+  - name: remastered/obj/M_EX640_HB.mdlx/-1.dds #Mad Ride
+  - name: remastered/obj/M_EX640_WI.mdlx/-1.dds #Timeless River
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: KACHOW/-1.dds
+
+- name: remastered/obj/M_EX640.mdlx/-2.dds #Only used in cups
+  multi:
+  - name: remastered/obj/M_EX640_HB.mdlx/-2.dds #Mad Ride
+  - name: remastered/obj/M_EX640_WI.mdlx/-2.dds #Timeless River
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: KACHOW/-2.dds
+
+
+
 #Sounds#
 - name: remastered/obj/M_EX640.a.us/se/obj/se230 #Regular (cups only?)
   multi:
